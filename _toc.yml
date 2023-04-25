@@ -6,8 +6,19 @@ root: intro
 chapters:
   - file: macsetup
   - file: shellconfig
+
+- part: Fundamentals
+  chapters:
   - file: mystack2023
+
+- part: Productivity
+  chapters:
   - file: notetakingjourney
-  - file: markdown
-  - file: notebooks
-  - file: markdown-notebooks
+
+- part: Archive
+  - part: Archive 2022
+    chapters:
+    - file: notetakingjourney
+    - file: markdown
+    - file: notebooks
+    - file: markdown-notebooks
