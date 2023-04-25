@@ -7,17 +7,16 @@ chapters:
   - file: macsetup
   - file: shellconfig
 
-- part: Fundamentals
+parts: Fundamentals
   chapters:
   - file: mystack2023
 
-- part: Productivity
+parts: Productivity
   chapters:
   - file: notetakingjourney
 
-- part: Archive
-  - part: Archive 2022
-    chapters:
+parts: Archive
+  chapters:
     - file: notetakingjourney
     - file: markdown
     - file: notebooks
