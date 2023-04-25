@@ -9,17 +9,17 @@ chapters:
 
 parts: 
   - caption: Fundamentals
-  chapters:
-  - file: mystack2023
+    chapters:
+    - file: mystack2023
 
 parts: 
   - caption: Productivity
-  chapters:
-  - file: notetakingjourney
+    chapters:
+    - file: notetakingjourney
 
 parts: 
   - caption: Archive
-  chapters:
+    chapters:
     - file: notetakingjourney
     - file: markdown
     - file: notebooks
