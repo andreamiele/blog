@@ -6,13 +6,13 @@ root: index
 parts:
   - caption: Name of Part 1
     chapters:
-      - file: path/to/part1/chapter1
-      - file: path/to/part1/chapter2
+      - file: markdown
+      - file: markdown
         sections:
-          - file: path/to/part1/chapter2/section1
+          - file: markdown
   - caption: Name of Part 2
     chapters:
-      - file: path/to/part2/chapter1
-      - file: path/to/part2/chapter2
+      - file: markdown
+      - file: markdown
         sections:
-          - file: path/to/part2/chapter2/section1
+          - file: markdown
