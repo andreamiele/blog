@@ -27,13 +27,11 @@ bibtex_bibfiles:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/executablebooks/jupyter-book  # Online location of your book
-  path_to_book: docs  # Optional path to your book, relative to the repository root
-  branch: master  # Which branch of the repository should be used when creating links (optiona
-  
-  
+  url: https://github.com/executablebooks/jupyter-book # Online location of your book
+  path_to_book: docs # Optional path to your book, relative to the repository root
+  branch: master # Which branch of the repository should be used when creating links (optiona
+
 launch_buttons:
   notebook_interface: "classic" # The interface interactive links will activate ["classic", "jupyterlab"]
   binderhub_url: "https://mybinder.org"
-  colab_url: "https://colab.research.google.com"l)
-
+  colab_url: "https://colab.research.google.com"
