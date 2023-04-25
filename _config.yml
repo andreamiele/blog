@@ -3,7 +3,9 @@
 
 title: My sample book
 author: Andrea Miele
-logo: logo.png
+email: andrea.miele.pro@gmail.com
+logo:
+copyright: "2023"
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
