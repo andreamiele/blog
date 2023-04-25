@@ -4,12 +4,11 @@
 format: jb-book
 root: intro
 parts:
-  - caption: Name of Part 1
+  - caption: Productivity
     chapters:
-      - file: markdown
-      - file: mystack2023
-        sections:
-          - file: shellconfig
-  - caption: Name of Part 2
+      - file: notetakingjourney
+  - caption: Tech Stuff
     chapters:
       - file: macsetup
+      - file: shellconfig
+      - file: mystack2023
