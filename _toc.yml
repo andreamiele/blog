@@ -7,12 +7,9 @@ parts:
   - caption: Name of Part 1
     chapters:
       - file: markdown
-      - file: markdown
+      - file: mystack2023
         sections:
-          - file: markdown
+          - file: shellconfig
   - caption: Name of Part 2
     chapters:
-      - file: markdown
-      - file: markdown
-        sections:
-          - file: markdown
+      - file: macsetup
