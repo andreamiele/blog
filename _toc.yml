@@ -7,6 +7,7 @@ parts:
   - caption: Productivity
     chapters:
       - file: notetakingjourney
+      - file: markdown
   - caption: Tech Stuff
     chapters:
       - file: macsetup
