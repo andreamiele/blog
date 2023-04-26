@@ -76,3 +76,9 @@ pygments_style = "sphinx"
 suppress_warnings = ["myst.domains"]
 use_jupyterbook_latex = True
 use_multitoc_numbering = True
+html_sidebars = {
+    "**": [
+        "globaltoc.html",
+        "searchbox.html",
+    ]
+}
