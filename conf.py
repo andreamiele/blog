@@ -35,7 +35,7 @@ html_sourcelink_suffix = ""
 html_static_path = ["_static"]
 html_theme = "sphinx_book_theme"
 html_theme_options = {
-    "search_bar_text": "Search this book...",
+    "search_bar_text": "Look what you can find here",
     "launch_buttons": {
         "notebook_interface": "classic",
         "binderhub_url": "https://mybinder.org",
