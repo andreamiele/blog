@@ -4,6 +4,15 @@
 
 Thanks to Mathis for this well-executed introductory exercise! We have access to the [website's code](https://app.coderpad.io/sandbox?question_id=247174?utm_campaign=23-Q2-Social-Twitter-TOFU-All-Global-MathisHammel&utm_source=Twitter&utm_medium=social&use_question_button), but I will explain how I managed to "hack" his site without looking at his code.
 
+```{code-cell} ipython3
+:tags: [remove_cell]
+# Generate some code that we'll use later on in the page
+import numpy as np
+import matplotlib.pyplot as plt
+square = np.random.randn(100, 100)
+wide = np.random.randn(100, 1000)
+```
+
 To begin with, the observation phase is important to analyze the different possible vulnerabilities. In our case, the website is composed of an integrated search bar that displays the "First name", "Last name", "Birth date" information of different people.
 
 This search bar dynamically updates according to what is entered without needing to reload the web page. The other point is the URL, which could give us access to other pages or features of the website.
