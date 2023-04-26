@@ -13,7 +13,7 @@ execute:
   execute_notebooks: "off"
 
 html:
-  home_page_in_navbar: false
+  home_page_in_navbar: true
   use_edit_page_button: true
   use_repository_button: true
   use_issues_button: true
@@ -34,7 +34,6 @@ repository:
   branch: master # Which branch of the repository should be used when creating links (optiona
 
 launch_buttons:
-  notebook_interface: "classic" # The interface interactive links will activate ["classic", "jupyterlab"]
   binderhub_url: "https://mybinder.org"
   colab_url: "https://colab.research.google.com"
 
