@@ -43,3 +43,4 @@ sphinx:
     html_js_files:
       # Needed for Plotly
       - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js
+    html_theme: pydata_sphinx_theme
