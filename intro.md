@@ -21,7 +21,7 @@ Demonstrations and challenges leverage the essential tools of the Python ecosyst
 
 All chapters are written as [Jupyter Notebooks](https://jupyter.org/) combining explanations and example code. 
 
-The content of this site is designed to be browsed thematically rather than sequentially.
+The content of this site is designed to be browsed thematically rather than sequentially. **Feel free to read it in the order you prefer.**
 
 ```{admonition} Interactivity
 :class: tip
