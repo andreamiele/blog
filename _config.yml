@@ -42,16 +42,7 @@ sphinx:
   config:
     html_sidebars:
       {
-        "**":
-          [
-            "search-field.html",
-            "sidebar-nav-bs.html",
-            "sidebar-ethical-ads.html",
-            "globaltoc.html",
-            "relations.html",
-            "sourcelink.html",
-            "searchbox.html",
-          ],
+        "**": ["navbar-logo.html", "search-field.html", "sbt-sidebar-nav.html"],
       }
     html_js_files:
       # Needed for Plotly
