@@ -4,7 +4,7 @@
  * Author: Andrea Miele (andrea.miele.pro@gmail.com, https://www.andreamiele.fr)
  * Github: https://www.github.com/andreamiele
  * -----
- * Last Modified: Tuesday, 25th April 2023 1:08:42 pm
+ * Last Modified: Wednesday, 26th April 2023 10:30:36 am
  * Modified By: Andrea Miele (andrea.miele.pro@gmail.com)
  * -----
  * 
@@ -12,7 +12,20 @@
  * Copyright (c) 2023
  * 
  */
- h1,h2,h3,h4,h5,h6 {
+
+
+
+/* anything related to the light theme */
+html[data-theme="light"] {
+
+    /* whatever you want to change */
     color: black !important;
+    font-weight: 300;
+}
+
+/* anything related to the dark theme */
+html[data-theme="dark"] {
+
+    color: white !important;
     font-weight: 300;
 }
