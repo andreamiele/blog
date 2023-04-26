@@ -53,6 +53,6 @@ sphinx:
     html_context: {
     # "github_url": "https://github.com", # or your GitHub Enterprise site
     "github_user": "andreamiele",
-    "github_repo": "book",
+    "github_repo": "blog",
     "github_version": "main",
 }
