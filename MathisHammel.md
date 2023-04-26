@@ -17,8 +17,6 @@ execution:
 
 ## Exercise
 
-This was the exercise:
-
 ### Piratez mon site !
 
 Cette barre de recherche présente une vulnérabilité. Votre mission, si vous l'acceptez :
