@@ -33,7 +33,7 @@ html_js_files = [
 html_logo = ""
 html_sourcelink_suffix = ""
 html_static_path = ["_static"]
-html_theme = "pydata_sphinx_theme"
+html_theme = "sphinx_book_theme"
 html_theme_options = {
     "search_bar_text": "Search this book...",
     "launch_buttons": {
@@ -76,6 +76,3 @@ pygments_style = "sphinx"
 suppress_warnings = ["myst.domains"]
 use_jupyterbook_latex = True
 use_multitoc_numbering = True
-html_sidebars = {
-    "**": ["search-field.html", "sidebar-nav-bs.html", "sidebar-ethical-ads.html"]
-}
