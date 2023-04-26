@@ -15,6 +15,22 @@ execution:
 ---
 # Matthis Hammel Hack Solving
 
+## Exercise
+
+This was the exercise:
+```
+Piratez mon site !
+
+Cette barre de recherche présente une vulnérabilité. Votre mission, si vous l'acceptez :
+1 - Trouver la faille
+2 - Voler le mot de passe admin
+3 - Patcher la faille
+
+C'est par ici 👉 [link](https://app.coderpad.io/sandbox?question_id=247174?utm_campaign=23-Q2-Social-Twitter-TOFU-All-Global-MathisHammel&utm_source=Twitter&utm_medium=social&use_question_button)
+
+Exercice créé pour [@Guardia_School](https://twitter.com/Guardia_School).
+```
+
 ## How to hack a website?
 
 Thanks to Mathis for this well-executed introductory exercise! We have access to the [website's code](https://app.coderpad.io/sandbox?question_id=247174?utm_campaign=23-Q2-Social-Twitter-TOFU-All-Global-MathisHammel&utm_source=Twitter&utm_medium=social&use_question_button), but I will explain how I managed to "hack" his site without looking at his code.
