@@ -18,8 +18,8 @@ execution:
 ## Exercise
 
 This was the exercise:
-```
-Piratez mon site !
+
+**Piratez mon site !**
 
 Cette barre de recherche présente une vulnérabilité. Votre mission, si vous l'acceptez :
 1 - Trouver la faille
@@ -29,7 +29,6 @@ Cette barre de recherche présente une vulnérabilité. Votre mission, si vous l
 C'est par ici 👉 [link](https://app.coderpad.io/sandbox?question_id=247174?utm_campaign=23-Q2-Social-Twitter-TOFU-All-Global-MathisHammel&utm_source=Twitter&utm_medium=social&use_question_button)
 
 Exercice créé pour [@Guardia_School](https://twitter.com/Guardia_School).
-```
 
 ## How to hack a website?
 
