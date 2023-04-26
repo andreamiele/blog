@@ -13,3 +13,9 @@ parts:
       - file: macsetup
       - file: shellconfig
       - file: mystack2023
+  - caption: Problem Solving
+    chapters:
+      - file: Hack
+        sections:
+        - file: MathisHammel
+      - file: Data
