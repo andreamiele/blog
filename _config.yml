@@ -40,11 +40,16 @@ launch_buttons:
 
 sphinx:
   config:
+    html_sidebars:
+      {
+        "**":
+          [
+            "search-field.html",
+            "sidebar-nav-bs.html",
+            "sidebar-ethical-ads.html",
+          ],
+      }
     html_js_files:
       # Needed for Plotly
       - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js
     html_theme_options: { "search_bar_text": "Look what you can find here" }
-  recursive_update: false
-  html_sidebars: {
-    "**": ["search-field.html", "sidebar-nav-bs.html", "sidebar-ethical-ads.html"]
-}
